@@ -6,3 +6,5 @@ source:
   - plasma-workspace
   - plasma-workspace-wayland
   - konsole
+  - dolphin
+  - kde-baseapps
