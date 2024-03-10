@@ -16,20 +16,18 @@ modules:
 
 # Put your custom actions behind this comment
 
-- name: example-packages
+- name: devel-packages
   type: apt
   source:
     packages:
-    - vim
+    - git
+    - gcc
+    - gh
 
-- name: example-commands
-  type: shell
-  commands:
-  - echo Example output
-
-- name: example-modules
+- name: package-modules
   type: includes
   includes:
+    - modules/00-vanilla-kde-desktop
     - modules/50-install-debs
 
 # Put your custom actions before this comment

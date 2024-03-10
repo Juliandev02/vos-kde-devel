@@ -1,0 +1,7 @@
+name: kde-desktop
+type: apt
+source:
+  packages:
+  - plasma-desktop
+  - plasma-workspace
+  - plasma-workspace-wayland
