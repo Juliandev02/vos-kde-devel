@@ -23,6 +23,9 @@ modules:
     - git
     - gcc
     - gh
+    - libssl-dev
+    - pkg-config
+    - libdbus-1-dev
 
 - name: package-modules
   type: includes
