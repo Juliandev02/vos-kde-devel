@@ -26,6 +26,15 @@ modules:
     - libssl-dev
     - pkg-config
     - libdbus-1-dev
+    - qemu-system
+    - qemu-system-gui 
+    - qemu-system-misc
+    - qemu-user
+    - qemu-utils
+    - libvirt0
+    - libvirt-daemon
+    - libvirt-daemon-driver-qemu
+    - virt-manager
 
 - name: package-modules
   type: includes
